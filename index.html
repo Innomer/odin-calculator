@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <p>Calculator</p>
+            <p id="note">Note:- The Decimal Functionality does not work currently! Only Rounded Integers are displayed!</p>
+        </div>
+        <div class="calculator">
+            <div class="inputArea">
+                <p id="userInputArea">0</p>
+            </div>
+            <div class="buttonGrid">
+                <button class="clearBut" onclick="changeResult(this)">Clear</button>
+                <button class="deleteBut" onclick="changeResult(this)">Delete</button>
+                <button class="number-button" onclick="changeResult(this)">7</button>
+                <button class="number-button" onclick="changeResult(this)">8</button>
+                <button class="number-button" onclick="changeResult(this)">9</button>
+                <button class="number-button" onclick="changeResult(this)">/</button>
+                <button class="number-button" onclick="changeResult(this)">4</button>
+                <button class="number-button" onclick="changeResult(this)">5</button>
+                <button class="number-button" onclick="changeResult(this)">6</button>
+                <button class="number-button" onclick="changeResult(this)">*</button>
+                <button class="number-button" onclick="changeResult(this)">1</button>
+                <button class="number-button" onclick="changeResult(this)">2</button>
+                <button class="number-button" onclick="changeResult(this)">3</button>
+                <button class="number-button" onclick="changeResult(this)">-</button>
+                <button class="number-button" onclick="changeResult(this)">=</button>
+                <button class="number-button" onclick="changeResult(this)">0</button>
+                <button class="number-button" onclick="changeResult(this)">.</button>
+                <button class="number-button" onclick="changeResult(this)">+</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    background-color: orange;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    padding: 5%;
+    margin: auto;
+
+}
+
+.calculator {
+    display: grid;
+    background-color: grey;
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    padding: 1%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px;
+}
+
+#userInputArea {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 2%;
+    text-align: end;
+    padding: 5%;
+    font-weight: 300;
+    color: steelblue;
+    box-shadow: 0px 1px 5px 1px black inset;
+    border: 2px solid black;
+}
+
+.buttonGrid {
+    width: 75%;
+    margin: auto;
+    /* align-items: center; */
+    padding: 1%;
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    column-gap: 5px;
+}
+
+.clearBut {
+    font-size: 30px;
+    padding: 5%;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 5%;
+    grid-column: span 2;
+    background-color: rgb(252, 101, 101);
+    border: 2px solid black;
+}
+
+.clearBut:hover {
+    background-color: rgb(211, 86, 86);
+}
+
+.clearBut:active {
+    transform: translateY(2px);
+}
+
+.deleteBut {
+    font-size: 30px;
+    padding: 5%;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 5%;
+    grid-column: span 2;
+    background-color: rgb(7, 126, 224);
+    border: 2px solid black;
+}
+
+.deleteBut:hover {
+    background-color: rgb(3, 97, 173);
+}
+
+.deleteBut:active {
+    transform: translateY(2px);
+}
+
+.number-button {
+    font-size: 30px;
+    padding: 5%;
+    font-weight: 200;
+    margin-top: 20px;
+    border-radius: 10%;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.number-button:hover {
+    background-color: rgb(216, 216, 193);
+}
+
+.number-button:active {
+    transform: translateY(2px);
+}
+#note{
+    font-size: 15px;
+    font-weight: 100;
+    margin: auto;
+    margin-top: 20px;
+    padding: 1%;
+}
